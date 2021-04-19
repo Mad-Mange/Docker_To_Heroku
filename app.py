@@ -6,7 +6,7 @@ app = Flask(__name__)
 port = int(os.environ.get("PORT", 5000))
 @app.route('/')
 def hello_world():
-    return 'Flask Dockerized and deployed to Heroku'
+    return 'Testar lite :)'
 
 def add(a, b):
     return a + b
